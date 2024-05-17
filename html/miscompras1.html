@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mis Compras</title>
+    <!-- Bootstrap -->
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+  <link href="../css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+	   <style>
+        .content-container {
+            background-color: #f9f9fa;
+            padding: 20px;
+            margin-bottom: 0; /* Eliminar margen inferior */
+        }
+
+        .nav1 .navbar-brand {
+            color: grey; /* Cambiar el color del texto a gris */
+        }
+
+        .nav1 .navbar-brand:hover {
+            color: grey; /* Cambiar el color del texto a gris cuando se hace hover */
+        }
+	   .nav-link {
+		   color: black;
+	   }
+
+        /* Cambiar el color del botón a gris */
+        .btn-primary {
+            background-color: grey;
+            border-color: grey;
+        }
+
+        /* Cambiar el color del botón a gris cuando se hace hover */
+        .btn-primary:hover {
+            background-color: grey;
+            border-color: grey;
+        }
+    </style>
+            <!-- Primer grupo de navegación -->
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                 <a class="navbar-brand" href="index.html">
+            <img src="../elementos/LOGO-MUSEO-DEL-PRADO.png" alt="logo" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="compra1.html">
+                        <img src="../elementos/Iconos-05.png" alt="Compras" width="80px">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../elementos/Iconos-07.png" alt="Menu hamburguesa" width="80px">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="../index.html">Inicio</a>
+                        <a class="dropdown-item" href="coleccion.html">Colección</a>
+                        <a class="dropdown-item" href="visita.html">Visita</a>
+						<a class="dropdown-item" href="biblio.html">Biblioteca</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+            </nav>
+
+            <!-- Segundo grupo de navegación -->
+            <nav class="navbar navbar-expand-lg nav1">
+                <a href="Compra1.html" >COMPRAR ENTRADAS&nbsp;</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="Compra1.html">MIS COMPRAS</a>
+                        </li>
+                    </ul>
+                </div>
+          </nav>
+
+            <!-- Contenedor para h2 y p con fondo de color -->
+         
+                <h2>Mis Compras</h2>
+                <p>Desde aquí puede revisar sus compras, descargar sus entradas o factura si la solicitó durante el proceso de compra, así como efectuar cambios en la fecha de visita de sus entradas ya adquiridas (hasta las 23:59 del día anterior a la visita), o cambios en la hora de acceso a la colección o exposiciones temporales con control de aforo.</p>
+            <h3> ESCRIBA EL MAIL CON EL QUE REALIZÓ LA COMPRA</h3>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Correo Electrónico"  aria-describedby="contentaddon1">
+                <div class="col-12 col-lg-2">
+    <button class="btn btn-primary" type="submit">ENVIAR</button>
+  </div>
+              </div>
+
+	  <br>
+	  <footer>
+	<div style="height: 255px; background: url(https://content3.cdnprado.net/imagenes/proyectos/personalizacion/7317a29a-d846-4c54-9034-6a114c3658fe/cms/mapa_static2.gif); background-position: center; background-size: cover;">
+<div style="text-align: center; padding-top: 53px; padding-right: 10px; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-size: 13px;"><p>MUSEO NACIONAL DEL PRADO</p><p>Paseo del Prado s/n</p><p>28014 Madrid</p><p>913 30 28 00</p></div>
+</div>
+	<div style="text-align: center; padding-top: 53px; padding-right: 10px; font-family: 'Gotham SSm A', 'Gotham SSm B'; font-size: 13px;"><p>MUSEO NACIONAL DEL PRADO</p>
+	  <p> <a href="https://twitter.com/museodelprado?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></p>
+<p><a href="https://www.instagram.com/museoprado/" target="_blank">
+      Instagram</a></p>
+<p><a href="https://www.facebook.com/museonacionaldelprado/" target="_blank">
+      Facebook</a></p>
+</div>
+	</footer>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../../js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../../js/popper.min.js"></script> 
+	<script src="../../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
